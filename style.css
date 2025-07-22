@@ -1,0 +1,21 @@
+body {
+    text-align: center;
+    background: #f0f0f0;
+    font-family: sans-serif;
+  }
+  
+  #menu, #gameOverScreen {
+    margin-top: 50px;
+  }
+  
+  canvas {
+    border: 2px solid #333;
+    background: skyblue;
+    display: block;
+    margin: 20px auto;
+  }
+  
+  #gameCanvas {
+    cursor: none;
+  }
+  

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Start Digging In Your Butt Twin</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="menu">
+    <h1>Start Digging In Your Butt Twin</h1>
+    <button id="startBtn">Start</button>
+    <button id="highScoreBtn">High Score</button>
+    <button id="settingsBtn">Settings</button>
+
+    <!-- Leaderboard container, hidden by default -->
+    <div id="leaderboard" style="display:none; margin-top:20px;"></div>
+  </div>
+
+  <canvas id="gameCanvas" width="800" height="600" style="display:none;"></canvas>
+
+  <div id="gameOverScreen" style="display:none;">
+    <h2>Game Over</h2>
+    <p id="finalScore"></p>
+    <button id="restartBtn">Restart</button>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
